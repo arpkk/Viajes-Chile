@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+
+}
+
+.navbar{
+    /* esto sirve para que se adapte el navbar fijo, y se arregla con width */
+    position: fixed;
+    width: 100vw;
+    /*que se superponga*/
+    z-index: 1;
+}
+
+
+
+#viaje1{
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-position: center;
+    height: 100vh;
+    /*esto permite usar las propiedades left y top*/
+    position: relative;
+
+}
+
+#Quienes-Somos{
+    font-size: 200;
+}
+
+#Quienes-Somos .card-tittle{
+    background-color: aqua;
+}
+
+#card-quienes{
+    background-color: black;
+}
+
+#destacados .card{
+    background-color: aqua;
+}
+
+#destacados img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+#Contacto button{
+    background-color: aqua;
+}
+
+footer{
+    background-color: aqua;
+}
+#Footer h1{
+    font-size: 30px;
+    font-weight: 200;
+
+}
+#Footer a{
+    color: white;
+    text-decoration: none;
+}
